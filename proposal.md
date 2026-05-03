@@ -2,7 +2,8 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
+* 52834 - Gonzalez, Milagros Magali
+* 52088 - Tapia, Elias 
 
 ### Repositorios
 * [frontend app](http://hyperlinkToGihubOrGitlab)
