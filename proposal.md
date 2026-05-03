@@ -11,12 +11,12 @@
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+En T&M ayudamos a las personas a encontrar su lugar ideal de una forma sencilla y cercana. A través de la página web se pueden ver propiedades, pedir tasaciones para vender con mayor seguridad y también organizar contratos sin tantas complicaciones. Además, con el apoyo en garantías y trámites, buscamos que alquilar o vender sea más fácil, claro y sin problemas.
 
 ### Modelo
-![imagen del modelo]()
+<img width="1622" height="1231" alt="der drawio" src="https://github.com/user-attachments/assets/48f9fe05-26ff-477e-9701-e4c55124a04e" />
+https://drive.google.com/file/d/1WcXHiGiRD_MX17PG10kQL8Yz_I6BbfgU/view?usp=sharing
 
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
 
 ## Alcance Funcional 
 
