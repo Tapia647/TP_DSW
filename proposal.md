@@ -15,7 +15,7 @@ En T&M ayudamos a las personas a encontrar su lugar ideal de una forma sencilla 
 
 ### Modelo
 <img width="1622" height="1231" alt="der drawio" src="https://github.com/user-attachments/assets/48f9fe05-26ff-477e-9701-e4c55124a04e" />
-[https://drive.google.com/file/d/1WcXHiGiRD_MX17PG10kQL8Yz_I6BbfgU/view?usp=sharing](https://drive.google.com/file/d/1WcXHiGiRD_MX17PG10kQL8Yz_I6BbfgU/view?usp=sharing)
+https://drive.google.com/file/d/1WcXHiGiRD_MX17PG10kQL8Yz_I6BbfgU/view?usp=sharing
 
 
 ## Alcance Funcional 
