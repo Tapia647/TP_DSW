@@ -22,22 +22,21 @@ https://drive.google.com/file/d/1WcXHiGiRD_MX17PG10kQL8Yz_I6BbfgU/view?usp=shari
 
 ### Alcance Mínimo
 
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
 
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|CRUD simple|1. CRUD Provincia<br>2. CRUD Tipo Inmueble|
+|CRUD dependiente|1. CRUD Localidad {depende de} CRUD Provincia|
+|Listado<br>+<br>detalle| 1. Listado de Inmuebles filtrado por Tipo de Inmueble y Localidad, muestra descripción, estado y tipo => detalle muestra datos completos del inmueble, ubicación GPS, tamaño, propietario y sus habitaciones.|
+|CUU/Epic|1. 1. Agendar y registrar el resultado de una Visita a un Inmueble (vincula Cliente, Corredor, Inmueble, con fecha, hora y comentarios).|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CRUD |1. CRUD Localidad<br>2. CRUD Tipo Habitacion<br>3. CRUD tipos garantia<br>4. CRUD Usuarios(Cliente, Corredor, Propietario)<br>5. CRUD Inmuebles<br>6. CRUD Habitacion<br>7. CRUD Garante<br>7. CRUD Contratos<br>7. CRUD Pago|
+|CUU/Epic|1. Confeccionar un Contrato (vincula Inmueble, Cliente, Corredor y Garante, estableciendo las condiciones del alquiler/venta)<br>2. Registrar el Pago mensual de un Contrato|
 
 
 ### Alcance Adicional Voluntario
@@ -46,7 +45,7 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
+|Listados ||
+|CUU/Epic||
 |Otros|1. Envío de recordatorio de reserva por email|
 
